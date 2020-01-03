@@ -17,7 +17,7 @@ chmod +x PixelAnnotationTool_x86_64_v1.3.1.AppImage
 </code></pre>
 - For training: Under the data folder
 - For testing validation: Can be parsed and generated. Used the dataset from [here](https://garfield.dale.ro/) 
-
+- Annotations: ![Annotated Images example](https://raw.githubusercontent.com/hensden/Cartoon-entity-extraction/master/res/oseg.png)
 ### Training: 
 - Edit data loader and filepaths and run `python3 train.py`
 
@@ -29,4 +29,6 @@ for image in os.listdir(src):
 </code></pre>
 
 ### Results: 
+
+
 
